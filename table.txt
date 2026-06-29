@@ -1,0 +1,96 @@
+table a
+id name
+1  john
+2  jane 
+
+table b
+city
+newyork 
+London
+
+output
+ 
+
+id name city 
+1  john newyork
+1  john London
+2  jane newyo
+
+
+
+
+{"id":  3, "section_name": "List of Tables",
+     "question": "Is the list of tables present?",
+     "prompt": "Verify if a List of Tables is present in the front matter of the document."},
+    {"id":  4, "section_name": "List of Figures",
+     "question": "Is the list of figures present?",
+     "prompt": "Verify if a List of Figures is present in the front matter of the document."},
+    {"id":  5, "section_name": "Abbreviations",
+     "question": "Is there a comprehensive list of acronyms or abbreviations?",
+     "prompt": "Verify if an Abbreviations list or Glossary of terms exists, mapping abbreviations to their full forms."},
+    {"id":  6, "section_name": "Deliverables / Delivery Set",
+     "question": "Is the delivery set or list of deliverables documented?",
+     "prompt": "Check for a delivery list, delivery set, or deliverables specification showing what items are delivered to the customer."},
+    {"id":  7, "section_name": "Storage Details",
+     "question": "Are storage guidelines, shelf life, and conditions specified?",
+     "prompt": "Verify if storage requirements (temperature ranges, RH, ESD boxes, shelf life) are clearly defined."},
+    {"id":  8, "section_name": "Packaging Instructions",
+     "question": "Are unit packaging instructions documented?",
+     "prompt": "Check if there are instructions for packaging the unit safely before transportation."},
+    {"id":  9, "section_name": "PCB Inspection Report Template",
+     "question": "Is there a bare/populated PCB inspection report template?",
+     "prompt": "Verify if a populated PCB inspection stage clearance report template is present."},
+    {"id": 10, "section_name": "Quality Assurance Matrix",
+     "question": "Is the QA matrix for mechanical and electrical components present?",
+     "prompt": "Check if there is a detailed QA matrix mapping inspection parameters, methods, and acceptance criteria."},
+    {"id": 11, "section_name": "Safety Precautions",
+     "question": "Are safety precautions for assembly or handling included?",
+     "prompt": "Verify if the document lists safety guidelines, HV handling, ESD warnings, or basic safety instructions."},
+    {"id": 12, "section_name": "Retention Checks / Records Control",
+     "question": "Are record retention guidelines specified?",
+     "prompt": "Check if there is a policy for controlling records, specifying how long quality records must be retained."},
+    {"id": 13, "section_name": "Incoming Inspection Stage",
+     "question": "Is there a process defined for incoming component inspection?",
+     "prompt": "Check if incoming goods inspection or raw material verification steps are documented."},
+    {"id": 14, "section_name": "BOM Inspection",
+     "question": "Is Bill of Materials inspection mentioned?",
+     "prompt": "Verify if the QAP specifies stage checks for verifying populated PCBs against the authorized BOM."},
+    {"id": 15, "section_name": "Traceability and Identification",
+     "question": "Are identification and serial number tracking defined?",
+     "prompt": "Check for traceability guidelines detailing how parts, lot codes, or serial numbers are logged."},
+    {"id": 16, "section_name": "Qualification Test (QT) Flow",
+     "question": "Is the Qualification Test flow chart or sequence present?",
+     "prompt": "Verify if there is a flowchart or step-by-step QT procedure covering environmental stress, vibration, and temperature testing."},
+    {"id": 17, "section_name": "Acceptance Test (AT) Flow",
+     "question": "Is the Acceptance Test sequence or procedure defined?",
+     "prompt": "Check for an ATP flow chart or matrix detailing how units are screened before shipment."},
+    {"id": 18, "section_name": "EMI/EMC Testing",
+     "question": "Are EMI/EMC testing standards and limits documented?",
+     "prompt": "Verify if EMI/EMC testing requirements (CE102, CS101, CS114, RE102, RS103 per MIL-STD-461) are specified."},
+    {"id": 19, "section_name": "Test Templates / Inspection Reports",
+     "question": "Are template report forms included for testing?",
+     "prompt": "Check if the annexures section has empty forms/reports (Housing Inspection, Card cold checks, Conformal coating report)."},
+    {"id": 20, "section_name": "Governing / Reference Documents",
+     "question": "Are supply orders, reference standards, and reference drawings listed?",
+     "prompt": "Verify if a list of reference drawings, BOM drawings, supply orders, or military standards is documented."}
+
+
+
+{"id": 3, "section_name": "List of Tables", "question": "Is the list of tables present?", "prompt": "Verify if a List of Tables is present in the front matter of the document."},
+    {"id": 4, "section_name": "List of Figures", "question": "Is the list of figures present?", "prompt": "Verify if a List of Figures is present in the front matter of the document."},
+    {"id": 5, "section_name": "Abbreviations", "question": "Is there a comprehensive list of acronyms or abbreviations?", "prompt": "Verify if an Abbreviations list or Glossary of terms exists, mapping abbreviations to their full forms."},
+    {"id": 6, "section_name": "Deliverables / Delivery Set", "question": "Is the delivery set or list of deliverables documented?", "prompt": "Check for a delivery list, delivery set, or deliverables specification showing what items are delivered to the customer."},
+    {"id": 7, "section_name": "Storage Details", "question": "Are storage guidelines, shelf life, and conditions specified?", "prompt": "Verify if storage requirements (such as temperature ranges, relative humidity, ESD safety boxes, or shelf life limits) are clearly defined."},
+    {"id": 8, "section_name": "Packaging Instructions", "question": "Are unit packaging instructions documented?", "prompt": "Check if there are instructions for packaging the unit safely before transportation (such as ESD packaging, shock absorber packing, etc.)."},
+    {"id": 9, "section_name": "PCB Inspection Report Template", "question": "Is there a bare/populated PCB inspection report template?", "prompt": "Verify if a populated PCB inspection stage clearance report template or standard checklist form is present in the document."},
+    {"id": 10, "section_name": "Quality Assurance Matrix", "question": "Is the QA matrix for mechanical and electrical components present?", "prompt": "Check if there is a detailed QA matrix mapping inspection parameters, methods, and acceptance criteria for mechanical and electrical items."},
+    {"id": 11, "section_name": "Safety Precautions", "question": "Are safety precautions for assembly or handling included?", "prompt": "Verify if the document lists safety guidelines, high voltage handling guidelines, electrostatic discharge (ESD) warnings, or basic safety instructions."},
+    {"id": 12, "section_name": "Retention Checks / Records Control", "question": "Are record retention guidelines specified?", "prompt": "Check if there is a policy for controlling records, specifying how long quality records and test reports must be retained."},
+    {"id": 13, "section_name": "Incoming Inspection Stage", "question": "Is there a process defined for incoming component inspection?", "prompt": "Check if incoming goods inspection, subcontracted items inspection, or raw material verification steps are documented."},
+    {"id": 14, "section_name": "BOM Inspection", "question": "Is Bill of Materials inspection mentioned?", "prompt": "Verify if the QAP specifies stage checks for verifying populated PCBs against the authorized BOM (Bill of Materials)."},
+    {"id": 15, "section_name": "Traceability and Identification", "question": "Are identification and serial number tracking defined?", "prompt": "Check for traceability guidelines, detailing how parts, lot codes, or unique serial numbers are logged during manufacturing and testing."},
+    {"id": 16, "section_name": "Qualification Test (QT) Flow", "question": "Is the Qualification Test flow chart or sequence present?", "prompt": "Verify if there is a flowchart or step-by-step procedure mapping environmental stress, vibration, high-low temperature, or altitude testing for qualification."},
+    {"id": 17, "section_name": "Acceptance Test (AT) Flow", "question": "Is the Acceptance Test sequence or procedure defined?", "prompt": "Check for an Acceptance Test Procedure (ATP) flow chart or matrix detailing how units are screened before shipment."},
+    {"id": 18, "section_name": "EMI/EMC Testing", "question": "Are EMI/EMC testing standards and limits documented?", "prompt": "Verify if EMI/EMC testing requirements (such as CE102, CS101, CS114, RE102, RS103 as per MIL-STD-461) are specified with test limits."},
+    {"id": 19, "section_name": "Test Templates / Inspection Reports", "question": "Are template report forms included for testing?", "prompt": "Check if the annexures or test templates section has empty forms/reports (e.g. Housing Inspection Report, Card cold checks, Conformal coating report)."},
+    {"id": 20, "section_name": "Governing / Reference Documents", "question": "Are supply orders, reference standards, and reference drawings listed?", "prompt": "Verify if a list of reference drawings, BOM drawings, supply orders, or military standards (MIL-STD-810, MIL-HDBK-217) is documented."}
